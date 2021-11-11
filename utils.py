@@ -3,7 +3,9 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
+
 # https://microsoft.github.io/graspologic/tutorials/simulations/erdos_renyi.html
+# https://en.wikipedia.org/wiki/Power_iteration
 
 class ErdosRenyiNetwork:
     def __init__(self):
